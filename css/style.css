@@ -363,5 +363,6 @@ section .container .section-heading {
 .Copyright {
   padding-top: 30px;
   color: #ffffff;
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: auto;
 }

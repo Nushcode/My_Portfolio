@@ -55,7 +55,7 @@ header nav .branding {
   padding: 3rem 0;
 }
 .hero img {
-  width: 35rem;
+  width: 25rem;
   border-radius: 25rem;
   margin-top: 2rem;
   border: 2px solid var(--primary);
@@ -87,8 +87,8 @@ section {
   padding: 6rem 0;
 }
 .about-imag {
-  width: 30rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
 }
 
 section.about h1 {

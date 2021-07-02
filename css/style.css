@@ -1,5 +1,9 @@
 @import "utilities.css";
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: #3dcfd3;
   --dark: #161616;

@@ -446,6 +446,12 @@ section .container .section-heading {
 	section.contact input {
 		width: 100%;
 	}
+	footer .footer-logo {
+		width: 80% !important;
+	}
+	footer .footer-socials a img {
+		width: 10% !important;
+	}
 }
 
 @media (max-width: 1200px) {

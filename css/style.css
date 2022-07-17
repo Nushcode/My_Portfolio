@@ -247,12 +247,22 @@ section.blog .section-heading {
 	font-size: 2rem;
 }
 section.blog .card-wrapper {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 3rem;
+	grid-gap: 3rem; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 section.blog .card-wrapper .card {
 	background: var(--pure);
+	width: 30%;
+	margin: 0px 20px 40px 0px;
+}
+section.blog .card-wrapper .card img {
+	width: 100% !important;
+	height: auto !important;
 }
 section.blog .card-wrapper .card .card-content {
 	padding: 2rem;
@@ -406,23 +416,23 @@ section .container .section-heading {
 		width: 90%;
 		margin: auto;
 	}
-	.section-heading + p {
-		margin-bottom: 30px;
-	}
 	section.work .card-wrapper .card {
 		margin-bottom: 40px;
 	}
-	section.blog .card-wrapper {
-		display: block;
-		width: 90%;
-		margin: auto;
+	section.blog .card-wrapper .card {
+		width: 100%;
 	}
+}
+
+@media (max-width: 1200px) {
 	section.blog {
 		padding: 0;
 		padding-top: 50px;
-		padding-bottom: 50px;
 	}
 	section.blog .container {
 		width: 95%;
+	}
+	.section-heading + p {
+		margin-bottom: 30px;
 	}
 }

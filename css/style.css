@@ -368,14 +368,15 @@ section .container .section-heading {
 }
 
 @media (max-width: 768px) {
+	img {
+		width: 100% !important;
+		height: auto !important;
+	}
 	.hide-768 {
 		display: none;
 	}
 	.hero {
 		flex-direction: column;
-	}
-	.hero img {
-		width: 100%;
 	}
 	.hero .left {
 		margin-bottom: 50px;
@@ -388,8 +389,6 @@ section .container .section-heading {
 		flex-direction: column;
 	}
 	.about .about-imag {
-		width: 100%;
-		height: auto;
 		margin-bottom: 20px;
 	}
 	section.about h1 {
@@ -401,5 +400,16 @@ section .container .section-heading {
 	section.about .social {
 		display: flex;
 		justify-content: center;
+	}
+	section.work .card-wrapper {
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	.section-heading + p {
+		margin-bottom: 30px;
+	}
+	section.work .card-wrapper .card {
+		margin-bottom: 40px;
 	}
 }

@@ -412,4 +412,17 @@ section .container .section-heading {
 	section.work .card-wrapper .card {
 		margin-bottom: 40px;
 	}
+	section.blog .card-wrapper {
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	section.blog {
+		padding: 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	section.blog .container {
+		width: 95%;
+	}
 }

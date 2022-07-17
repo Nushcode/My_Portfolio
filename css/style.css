@@ -422,6 +422,30 @@ section .container .section-heading {
 	section.blog .card-wrapper .card {
 		width: 100%;
 	}
+	section.contact {
+		padding: 50px 0px;
+	}
+	section.contact .container h1 {
+		font-size: 1.8rem;
+	}
+	section.contact .container p {
+		font-size: 1.4rem;
+		line-height: normal;
+		padding: 0;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	section.contact .imag {
+		max-width: 20%;
+		margin: auto;
+	}
+	section.contact .input-wrap {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	section.contact input {
+		width: 100%;
+	}
 }
 
 @media (max-width: 1200px) {

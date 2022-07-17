@@ -384,4 +384,22 @@ section .container .section-heading {
 		margin-bottom: 50px;
 		text-align: center;
 	}
+	.about .container.flex {
+		flex-direction: column;
+	}
+	.about .about-imag {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	section.about h1 {
+		font-size: 2.5rem;
+	}
+	section.about h3 {
+		font-size: 1.2rem;
+	}
+	section.about .social {
+		display: flex;
+		justify-content: center;
+	}
 }

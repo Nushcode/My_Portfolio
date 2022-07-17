@@ -210,12 +210,21 @@ section.work {
 	background: var(--light);
 }
 section.work .card-wrapper {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 2rem;
+	grid-gap: 2rem; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 section.work .card-wrapper .card {
+	width: 30%;
+	margin: 0 20px 20px 0;
 	position: relative;
+}
+section.work .card-wrapper .card img {
+	width: 100%;
+	height: auto;
 }
 section.work .card-wrapper .card .overlay {
 	position: absolute;
@@ -411,13 +420,14 @@ section .container .section-heading {
 		display: flex;
 		justify-content: center;
 	}
-	section.work .card-wrapper {
+	/* section.work .card-wrapper {
 		display: block;
 		width: 90%;
 		margin: auto;
-	}
+	} */
 	section.work .card-wrapper .card {
 		margin-bottom: 40px;
+		width: 90%;
 	}
 	section.blog .card-wrapper .card {
 		width: 100%;
